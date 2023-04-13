@@ -34,10 +34,12 @@ h5 {
 .botao:hover {
     background-color: #343a40;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
-.frango {
-    border: 1px solid red;
+#pesquisa {
+    transition: width 0.5s;
+}
+#pesquisa:focus {
+    width: 300px;
 }
