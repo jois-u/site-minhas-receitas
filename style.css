@@ -2,15 +2,15 @@ div {
     display: inline-block;
 }
 
-h5 {
-    position: absolute;
-    top: 85px;
-    background-color: white;
 
+h5 {
+    margin: -30px 0 10px !important;
+    background-color: white;
+    text-align: center;
 }
 
 .receitas {
-    margin: 20px;
+    margin: 15px;
 }
 
 .item-receita {
@@ -35,11 +35,4 @@ h5 {
     background-color: #343a40;
     color: white;
     text-decoration: none; 
-}
-
-#pesquisa {
-    transition: width 0.5s;
-}
-#pesquisa:focus {
-    width: 300px;
 }
