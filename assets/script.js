@@ -20,7 +20,7 @@ const saveInput = () => {
 
         let a=ListItem[i].getElementsByTagName('h5')[0];
 
-        let value= a ? a.textContent : ''; //Extrair conteudo de texto da variavel A. A primeira propiedade que não for undefined e não estiver vazia será usada para inicializar a variavel value.
+        let value= a ? a.textContent : ''; //Extrair conteudo de texto da variavel A. A primeira propriedade que não for undefined e não estiver vazia será usada para inicializar a variavel value.
         //Operador Or verifica se o conteudo de a se encaixa em algum dos tipos de formatação e o define naquele que der true
 
 
