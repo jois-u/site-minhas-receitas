@@ -1,0 +1,38 @@
+div {
+    display: inline-block;
+}
+
+
+h5 {
+    margin: -30px 0 10px !important;
+    background-color: white;
+    text-align: center;
+}
+
+.receitas {
+    margin: 15px;
+}
+
+.item-receita {
+    margin: 10px ;
+    padding: 20px 20px 20px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+
+.botao {
+    display: block;
+    text-align: center;
+    border: 1px solid #343a40;
+    padding: 7px;
+    border-radius: 0px 0px 10px 10px;
+    color: #343a40;
+    transition: background-color .30s ease-in;
+}
+
+.botao:hover {
+    background-color: #343a40;
+    color: white;
+    text-decoration: none; 
+}
